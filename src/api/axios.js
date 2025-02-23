@@ -2,7 +2,7 @@ import axios from 'axios';
 import toast from 'react-hot-toast';
 
 const api = axios.create({
-  baseURL: process.env.BACKEND_URL + '/api',
+  baseURL: 'https://blog-backend-8dml.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
